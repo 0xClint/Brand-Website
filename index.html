@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="pre_loader"></div>
+    <container class="navbar">
+        <div class="logo" onmouseover="mouseOver()" onmouseleave="mouseOut()">Logo</div>
+        <div class="menu" onmouseover="mouseOver()" onmouseleave="mouseOut()">
+            <div class="menu_bar"></div>
+            <div class="menu_bar"></div>
+            <div class="menu_bar"></div>
+        </div>
+    </container>
+    
+    <container class="hero_section">
+        <div class="left">
+            <div class="btn-container" onmouseover="mouseOver()" onmouseleave="mouseOut()">
+                <div class="ball"></div>
+                <div class="line"></div>
+                <a href="/" class="btn">Scroll on</a>
+            </div>
+            <div data-speed="8"class="video_container" id="square">
+                <video autoplay muted loop src="./media/videos/video_valo.mp4"></video>
+            </div>
+            <div data-speed="5" class="video_container" id="triangle">
+            </div>
+        </div>
+        <div class="mid">
+            <h1 data-speed="13" id="text"  class="video_container">Brand
+                Experi-
+                ences
+                That<br>
+                <span style="display: initial">Inspire +</span>
+                <span>Bold +</span>
+                <span>Creative +</span>
+                <span>Unique +</span>
+                <span>Cool +</span>
+                Related.
+            </h1>
+            <div class="mid_content">
+                <p>
+                    We are a creative design agency in India who care, build relationships, have industry experience, and working with
+                    global clients.
+                </p>
+                <a href="#" onmouseover="mouseOver()" onmouseleave="mouseOut()"><u>say Hello</u> !</a>
+            </div>
+        </div>
+        <div class="right">
+            <div data-speed="6" class="video_container" id="square"></div>
+            <div data-speed="3" class="video_container" id="triangle"></div>
+        </div>
+    </container>
+    
+    <container class="post_section" onmouseover="cursorView()" onmouseout="cursorviewRemove()">
+        <div class="content_left">
+            <div class="img_container">
+                <div class="inner_img"><img src="./media/images/4.jpg" alt="" srcset=""></div>
+            </div>
+            <h1>UltronBeRog</h1>
+            <p>Brand Identity - The beam booster of ultra blast fire</p>
+        </div>
+        <div class="content_right">
+            <div class="img_container">
+                <div class="inner_img"></div>
+            </div>
+            <h1>ProxiMednight</h1>
+            <p>Beautiful websites - The beam booster of ultra blast fire</p>
+        </div>
+    </container>
+    
+    <div class="slider_section">
+        <div class="heading_content">
+            <div class="heading_overview">
+                <h1>Our Service</h1>
+                <p>Best-in-class services behind better customer experiences</p>
+            </div>
+            <div class="btn-container_black" onmouseover="mouseOver()" onmouseleave="mouseOut()">
+                <a href="/" class="btn">Check out</a>
+                <div class="line"></div>
+                <div class="ball"></div>
+            </div>
+        </div>
+        <div class="dots" onmouseover="mouseOver()" onmouseleave="mouseOut()">
+            <div id="dot_1"></div>
+            <div id="dot_2"></div>
+            <div id="dot_3"></div>
+        </div>
+        <div class="nav next" onclick="fNext(), dotNextCheck()" onmouseover="mouseOver()" onmouseleave="mouseOut()" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+            <path
+                d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z" />
+            </svg>
+        </div>
+        <div class="nav previous" onclick="fPrevious(), dotNextCheck()" onmouseover="mouseOver()" onmouseleave="mouseOut()" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+            <path
+                d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z" />
+           </svg>
+        </div>
+        <div class="service_content">
+            <main class="main" id="main">
+                <div class="page">
+                    <h1>Depth</h1>
+                    <p>We are continually questioning and eternally curious, whether watching the waves of the wider world, examining the
+                        technical details of a production or getting inside the minds of consumers.
+                    </p>
+                    <div class="btn-container_black" onmouseover="mouseOver()" onmouseleave="mouseOut()">
+                        <a href="/" class="btn">Check out</a>
+                        <div class="line"></div>
+                        <div class="ball"></div>
+                    </div>
+                </div>
+                <div class="page">
+                    <h1>Adrenaline</h1>
+                    <p>With zeal, agility and speed of thought, we embrace the world in all of its beauty and chaos. We aim to inspire,
+                        surprise and delight with work that strikes a chord, touches a nerve and ignites a conversation.
+                    </p>
+                    <div class="btn-container_black" onmouseover="mouseOver()" onmouseleave="mouseOut()">
+                        <a href="/" class="btn">Check out</a>
+                        <div class="line"></div>
+                        <div class="ball"></div>
+                    </div>
+                </div>
+                <div class="page">
+                    <h1>Growth</h1>
+                    <p>We're measured by effectiveness and commercial success. But growth is also about journeying to uncharted territories,
+                        the thrill of innovation, touching more lives, creating new experiences.
+                    </p>
+                    <div class="btn-container_black" onmouseover="mouseOver()" onmouseleave="mouseOut()">
+                        <a href="/" class="btn">Check out</a>
+                        <div class="line"></div>
+                        <div class="ball"></div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="project_section">
+        <div class="projects_heading">
+            <h1>Latest Projects</h1>
+            <p>Best-in-class services behind better customer experiences</p>
+        </div>
+        <div class="outerscroll_container">
+            <div class="scroller_left">
+                <div class="project_container" onmouseover="mouseOver(), cursorProject()" onmouseleave="mouseOut(), cursorProjectRemove()" >
+                    <div class="img_content" style="background-image: url(./media/images/projects/2.jpg)"></div>
+                    <div class="text_content">
+                        <p>Thing</p><p>Branding type</p>
+                    </div>
+                </div>
+                <div class="project_container" onmouseover="mouseOver(), cursorProject()" onmouseleave="mouseOut(), cursorProjectRemove()" >
+                    <div class="img_content" style="background-image: url(./media/images/projects/3.jpg)"></div>
+                    <div class="text_content">
+                        <p>Thing</p><p>Branding type</p>
+                    </div>
+                </div>
+                <div class="project_container" onmouseover="mouseOver(), cursorProject()" onmouseleave="mouseOut(), cursorProjectRemove()" >
+                    <div class="img_content" style="background-image: url(./media/images/projects/4.jpg)"></div>
+                    <div class="text_content">
+                        <p>Thing</p><p>Branding type</p>
+                    </div>
+                </div>
+            </div>
+            <div class="scroller_right">
+                <div class="project_container" onmouseover="mouseOver(), cursorProject()" onmouseleave="mouseOut(), cursorProjectRemove()" >
+                    <div class="img_content" style="background-image: url(./media/images/projects/5.jpg)"></div>
+                    <div class="text_content">
+                        <p>Thing</p><p>Branding type</p>
+                    </div>
+                </div>
+                <div class="project_container" onmouseover="mouseOver(), cursorProject()" onmouseleave="mouseOut(), cursorProjectRemove()" >
+                    <div class="img_content" style="background-image: url(./media/images/projects/6.jpg)"></div>
+                    <div class="text_content">
+                        <p>Thing</p><p>Branding type</p>
+                    </div>
+                </div>
+                <div class="project_container" onmouseover="mouseOver(), cursorProject()" onmouseleave="mouseOut(), cursorProjectRemove()" >
+                    <div class="img_content" style="background-image: url(./media/images/projects/7.jpg)"></div>
+                    <div class="text_content">
+                        <p>Thing</p><p>Branding type</p>
+                    </div>
+                </div>
+                <div class="project_container" onmouseover="mouseOver(), cursorProject()" onmouseleave="mouseOut(), cursorProjectRemove()" >
+                    <div class="img_content" style="background-image: url(./media/images/projects/8.jpg)"></div>
+                    <div class="text_content">
+                        <p>Thing</p><p>Branding type</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video_section">
+        <video autoplay muted loop src="./media/videos/video.mp4"></video>
+        </div>
+    </div>
+
+    <div class="collective_section">
+        <h1>Seen Our Work ?</h1>
+        <div class="btn-container" style="transform: rotate(0); top:0" onmouseover="mouseOver()" onmouseleave="mouseOut()">
+            <a href="/" class="btn">Take a look</a>
+            <div class="line"></div>
+            <div class="ball" style="background-color: blue;"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer_content">
+            <div class="contact_us">
+                <h3>Say Hello!</h3>
+                <p>4140 Parker Rd. Allentown,<br>New Albrtos 80434
+                </p>
+                <p onmouseover="mouseOver()" onmouseleave="mouseOut()"> 
+                    <svg viewBox="0 0 512 512">
+                    <path
+                        d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z" />
+                    </svg>
+                    <u>(704) 555-0127</u>
+                </p>
+                <p onmouseover="mouseOver()" onmouseleave="mouseOut()"> 
+                    <svg viewBox="0 0 512 512">
+                        <path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z" />
+                    </svg>
+                    <u>nathan.roberts@example.com</u>
+                </p>
+            </div>
+            <div class="social">
+                <h3>Our Socials</h3>
+                <div class="icons">
+                    <svg viewBox="0 0 448 512">
+                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                    </svg>
+                    <svg viewBox="0 0 448 512">
+                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                    <svg viewBox="0 0 320 512">
+                        <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                    </svg>
+                    <svg viewBox="0 0 512 512">
+                        <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="lets_talk">
+                <p>Got a project in mind?</p>
+                <h1>Let’s Talk</h1>
+            </div>
+        </div>
+        <div class="line_break"></div>
+    </footer>
+
+    <div class="end_section">
+        <div class="end_logo">
+            <h1>Logo</h1>
+            <p>4140 Parker Rd. Allentow</p>
+        </div>
+    </div>
+
+    <div class="cursor" id="cursor"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
