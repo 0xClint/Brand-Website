@@ -1,3 +1,11 @@
+//**************************mobile Ui Error*********
+
+if (window.innerWidth < 1200) {
+  alert(
+    "currently the given website in not reponsive for the phone UI, please Open on Desktop or laptop for better experience!!!"
+  );
+}
+
 //***************** PreLoader**********************
 
 var loader = document.getElementById("pre_loader");
